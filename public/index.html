@@ -1,0 +1,39 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-10-30 17:05:17
+ * @LastEditTime: 2022-05-08 10:38:53
+ * @LastEditors: ling 1039137893@qq.com
+ * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ * @FilePath: \iphone\public\index.html
+-->
+
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>1.jpg">
+  <!-- //at.alicdn.com/t/font_3311054_niiionqawji.css为自己创建的项目 -->
+  <link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_3311054_niiionqawji.css">
+  <!-- // import './assets/font/iconfont.css'   另一种引入方式 -->
+  <!-- <link rel="icon" href="./1.jpg"> -->
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <script src="https://cdn.bootcss.com/vConsole/3.2.0/vconsole.min.js"></script>
+  <script>
+    let vConsole = new VConsole();
+  </script>
+</body>
+
+</html>
